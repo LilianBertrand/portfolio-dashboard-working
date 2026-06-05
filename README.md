@@ -29,31 +29,6 @@ It also has a synthetic demo-data fallback. Therefore, the dashboard can still r
 - Asset class allocation
 - HTML report export
 
-## Run locally
+## Live Demo
 
-```bash
-cd portfolio-dashboard-working
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## GitHub setup
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/portfolio-dashboard-working.git
-git push -u origin main
-```
-
-## Suggested CV bullet
-
-Developed a Python-based portfolio management and risk analytics dashboard using Streamlit. The tool compares equal-weighted, minimum-volatility, maximum-Sharpe and risk-parity allocations, with walk-forward rebalancing, transaction costs, VaR/CVaR, drawdown analysis, benchmark comparison and asset-class exposure monitoring.
-
-## Important limitation
-
-This project is intended as a portfolio analytics and educational tool. It does not produce investment advice and should not be presented as a model designed to beat the market.
+https://portfolio-dashboard-working-asc33z9mg3zqsd3sbh9adh.streamlit.app/
